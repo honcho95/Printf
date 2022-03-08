@@ -6,7 +6,7 @@
 /*   By: tbaskhan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/15 13:36:45 by tbaskhan          #+#    #+#             */
-/*   Updated: 2022/02/28 13:40:32 by tbaskhan         ###   ########.fr       */
+/*   Updated: 2022/03/08 13:38:12 by tbaskhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ int		ft_print_percent(void);
 int		ft_print_s(char *s);
 int		ft_print_u(unsigned int nb);
 int		ft_x_len(unsigned int nb);
+int		get_size_u(unsigned long long int nb);
 void	ft_x(unsigned int nb);
 void	ft_putstr(char *s);
 int		ft_print_x(unsigned int nb);

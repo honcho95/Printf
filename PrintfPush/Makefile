@@ -3,22 +3,22 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: emaugale <emaugale@student.42.fr>          +#+  +:+       +#+         #
+#    By: tbaskhan <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/08/30 11:36:49 by emaugale          #+#    #+#              #
-#    Updated: 2022/02/28 13:09:51 by tbaskhan         ###   ########.fr        #
+#    Created: 2022/03/08 13:55:55 by tbaskhan          #+#    #+#              #
+#    Updated: 2022/03/08 13:59:47 by tbaskhan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS =	ft_printf.c				\
-		ft_print_c.c				\
-		ft_print_d.c				\
-		ft_print_p.c				\
+SRCS =	ft_printf.c			\
+		ft_print_c.c			\
+		ft_print_d.c			\
+		ft_print_p.c			\
 		ft_print_percent.c			\
-		ft_print_s.c				\
-		ft_print_u.c				\
-		ft_print_x.c				\
-		ft_print_i.c				\
+		ft_print_s.c			\
+		ft_print_u.c			\
+		ft_print_x.c			\
+		ft_print_i.c			\
 		ft_print_upx.c			\
 		ft_utils.c			\
 
@@ -45,6 +45,5 @@ fclean: clean
 	${RM} ${NAME}
 
 re: fclean all
-
 
 .PHONY: all, clean, fclean, re
